@@ -52,8 +52,8 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
-            username: ${{ secrets.ROOT_NAME }}
-            password: ${{ secrets.ROOT_PASS }}
+          username: ${{ secrets.ROOT_NAME }}
+          password: ${{ secrets.ROOT_PASS }}
           script: |
             sudo docker pull jetdj/cicd-flask-test:latest
             sudo docker stop $(sudo docker ps -a -q)
