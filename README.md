@@ -1,3 +1,4 @@
+![Flask-app workflow](https://github.com/inood/ci-cd-flask-for-test/workflows/Flask-app%20workflow/badge.svg)
 ### Реализация CI-CD средствами Github-Actions
 ##
 
